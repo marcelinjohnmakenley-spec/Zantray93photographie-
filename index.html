@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ZantrayPhotographie — Marecelin Jhonn Markenley</title>
+
+  <meta
+    name="description"
+    content="ZantrayPhotographie — Portfolio de Marecelin Jhonn Markenley, photographe en Haïti."
+  >
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+  <a href="#accueil" class="logo">
+    Zantray<span>Photographie</span>
+  </a>
+
+  <button class="menu-toggle" id="menuToggle">
+    ☰
+  </button>
+
+  <nav class="nav" id="nav">
+    <a href="#accueil">Accueil</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#profil">Profil</a>
+    <a href="#services">Services</a>
+    <a href="#discussion">Discussion</a>
+    <a href="#contact">Contact</a>
+    <a href="#admin" class="admin-link">Administration</a>
+  </nav>
+
+</header>
+
+
+<main>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero" id="accueil">
+
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+
+  <div class="hero-content">
+
+    <p class="eyebrow">
+      ZANTRAYPHOTOGRAPHIE · HAÏTI
+    </p>
+
+    <h1>
+      L'art de<br>
+      <em>capturer</em><br>
+      l'instant.
+    </h1>
+
+    <p>
+      Photographie par
+      <strong>Marecelin Jhonn Markenley</strong>.
+      Des images authentiques, humaines et intemporelles.
+    </p>
+
+    <div class="hero-buttons">
+
+      <a href="#portfolio" class="btn">
+        Voir le portfolio →
+      </a>
+
+      <a href="#contact" class="btn outline">
+        Me contacter
+      </a>
+
+    </div>
+
+  </div>
+
+  <div class="hero-bottom">
+    PHOTOGRAPHIE · CRÉATION · ÉMOTION
+  </div>
+
+</section>
+
+
+<!-- ================= INTRO ================= -->
+
+<section class="intro">
+
+  <div class="container intro-grid">
+
+    <div class="number">
+      01 —
+    </div>
+
+    <div>
+
+      <p class="eyebrow dark">
+        BIENVENUE
+      </p>
+
+      <h2>
+        Chaque image<br>
+        raconte <em>une histoire.</em>
+      </h2>
+
+      <p class="large-text">
+        ZantrayPhotographie est l'espace créatif de
+        Marecelin Jhonn Markenley, photographe passionné
+        basé en Haïti.
+      </p>
+
+      <a href="#profil" class="text-link">
+        Découvrir le photographe →
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section class="portfolio dark" id="portfolio">
+
+  <div class="container">
+
+    <div class="section-heading">
+
+      <div>
+        <p class="eyebrow">
+          02 — PORTFOLIO
+        </p>
+
+        <h2>
+          Mes <em>images.</em>
+        </h2>
+      </div>
+
+      <div class="filters">
+
+        <button class="filter active" data-filter="all">
+          Tout
+        </button>
+
+        <button class="filter" data-filter="portrait">
+          Portrait
+        </button>
+
+        <button class="filter" data-filter="mariage">
+          Mariage
+        </button>
+
+        <button class="filter" data-filter="evenement">
+          Événement
+        </button>
+
+        <button class="filter" data-filter="nature">
+          Nature
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div class="gallery" id="gallery">
+
+      <!-- Photo 1 -->
+      <article class="photo-card large" data-category="portrait">
+
+        <img
+          src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1200&q=85"
+          alt="Portrait"
+        >
+
+        <div class="photo-info">
+          <small>PORTRAIT</small>
+          <h3>Présence</h3>
+        </div>
+
+      </article>
+
+
+      <!-- Photo 2 -->
+      <article class="photo-card" data-category="nature">
+
+        <img
+          src="https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=85"
+          alt="Paysage"
+        >
+
+        <div class="photo-info">
+          <small>NATURE</small>
+          <h3>Horizons</h3>
+        </div>
+
+      </article>
+
+
+      <!-- Photo 3 -->
+      <article class="photo-card" data-category="mariage">
+
+        <img
+          src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85"
+          alt="Mariage"
+        >
+
+        <div class="photo-info">
+          <small>MARIAGE</small>
+          <h3>Pour toujours</h3>
+        </div>
+
+      </article>
+
+
+      <!-- Photo 4 -->
+      <article class="photo-card" data-category="evenement">
+
+        <img
+          src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1000&q=85"
+          alt="Événement"
+        >
+
+        <div class="photo-info">
+          <small>ÉVÉNEMENT</small>
+          <h3>Énergie</h3>
+        </div>
+
+      </article>
+
+
+      <!-- Photo 5 -->
+      <article class="photo-card large" data-category="nature">
+
+        <img
+          src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=85"
+          alt="Nature"
+        >
+
+        <div class="photo-info">
+          <small>NATURE</small>
+          <h3>Silence</h3>
+        </div>
+
+      </article>
+
+    </div>
+
+
+    <div class="admin-add-photo">
+
+      <button id="showAddPhoto" class="btn">
+        + Ajouter une photo
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PROFIL ================= -->
+
+<section class="profile" id="profil">
+
+  <div class="container profile-grid">
+
+    <div class="profile-image">
+
+      <img
+        id="profileImage"
+        src="https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=1000&q=85"
+        alt="Marecelin Jhonn Markenley"
+      >
+
+    </div>
+
+
+    <div class="profile-content">
+
+      <p class="eyebrow dark">
+        03 — LE PHOTOGRAPHE
+      </p>
+
+      <h2>
+        Marecelin<br>
+        <em>Jhonn Markenley.</em>
+      </h2>
+
+      <p>
+        Je suis Marecelin Jhonn Markenley, photographe
+        derrière ZantrayPhotographie.
+      </p>
+
+      <p>
+        Je cherche à transformer les moments réels en
+        souvenirs visuels qui restent. Portraits,
+        événements, mariages, paysages et projets créatifs
+        font partie de mon univers.
+      </p>
+
+      <div class="profile-contact">
+
+        <div>
+          <strong>Localisation</strong>
+          <span>Haïti</span>
+        </div>
+
+        <div>
+          <strong>Téléphone</strong>
+          <span>+509 4855-3331</span>
+        </div>
+
+        <div>
+          <strong>Email</strong>
+          <span>marcelinjohnmakenley@gmail.com</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services dark" id="services">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      04 — SERVICES
+    </p>
+
+    <h2>
+      Créons quelque<br>
+      <em>chose de mémorable.</em>
+    </h2>
+
+
+    <div class="services-list">
+
+      <div class="service">
+        <span>01</span>
+
+        <div>
+          <h3>Portraits</h3>
+          <p>
+            Portrait personnel, professionnel,
+            artistique ou familial.
+          </p>
+        </div>
+
+        <strong>↗</strong>
+      </div>
+
+
+      <div class="service">
+        <span>02</span>
+
+        <div>
+          <h3>Mariages</h3>
+          <p>
+            Les émotions et les moments importants
+            de votre journée.
+          </p>
+        </div>
+
+        <strong>↗</strong>
+      </div>
+
+
+      <div class="service">
+        <span>03</span>
+
+        <div>
+          <h3>Événements</h3>
+          <p>
+            Couverture photographique de vos
+            événements privés ou professionnels.
+          </p>
+        </div>
+
+        <strong>↗</strong>
+      </div>
+
+
+      <div class="service">
+        <span>04</span>
+
+        <div>
+          <h3>Projets créatifs</h3>
+          <p>
+            Création d'images pour artistes,
+            entreprises et marques.
+          </p>
+        </div>
+
+        <strong>↗</strong>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= DISCUSSION ================= -->
+
+<section class="discussion" id="discussion">
+
+  <div class="container discussion-grid">
+
+    <div>
+
+      <p class="eyebrow dark">
+        05 — DISCUSSION
+      </p>
+
+      <h2>
+        Une idée ?<br>
+        <em>Parlons-en.</em>
+      </h2>
+
+      <p class="large-text">
+        Laissez un message ou contactez directement
+        ZantrayPhotographie.
+      </p>
+
+    </div>
+
+
+    <form id="discussionForm" class="discussion-form">
+
+      <label>
+        Votre nom
+        <input
+          type="text"
+          id="discussionName"
+          required
+          placeholder="Votre nom"
+        >
+      </label>
+
+      <label>
+        Votre email
+        <input
+          type="email"
+          id="discussionEmail"
+          required
+          placeholder="votre@email.com"
+        >
+      </label>
+
+      <label>
+        Votre message
+        <textarea
+          id="discussionMessage"
+          required
+          rows="6"
+          placeholder="Écrivez votre message..."
+        ></textarea>
+      </label>
+
+      <button class="btn dark-btn" type="submit">
+        Envoyer le message →
+      </button>
+
+      <p id="discussionStatus"></p>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact dark" id="contact">
+
+  <div class="container">
+
+    <p class="eyebrow">
+      06 — CONTACT
+    </p>
+
+    <h2>
+      Restons<br>
+      <em>en contact.</em>
+    </h2>
+
+
+    <div class="contact-links">
+
+      <a
+        href="mailto:marcelinjohnmakenley@gmail.com"
+        class="contact-link"
+      >
+        <span>Email</span>
+        <strong>
+          marcelinjohnmakenley@gmail.com
+        </strong>
+        <b>↗</b>
+      </a>
+
+
+      <a
+        href="https://wa.me/50948553331"
+        target="_blank"
+        class="contact-link"
+      >
+        <span>WhatsApp</span>
+        <strong>
+          +509 4855-3331
+        </strong>
+        <b>↗</b>
+      </a>
+
+
+      <a
+        href="#"
+        class="contact-link social-link"
+      >
+        <span>Facebook</span>
+        <strong>
+          À ajouter
+        </strong>
+        <b>↗</b>
+      </a>
+
+
+      <a
+        href="#"
+        class="contact-link social-link"
+      >
+        <span>Instagram</span>
+        <strong>
+          À ajouter
+        </strong>
+        <b>↗</b>
+      </a>
+
+
+      <a
+        href="#"
+        class="contact-link social-link"
+      >
+        <span>TikTok</span>
+        <strong>
+          À ajouter
+        </strong>
+        <b>↗</b>
+      </a>
+
+
+      <a
+        href="#"
+        class="contact-link social-link"
+      >
+        <span>X</span>
+        <strong>
+          À ajouter
+        </strong>
+        <b>↗</b>
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ADMINISTRATION ================= -->
+
+<section class="admin dark" id="admin">
+
+  <div class="container admin-container">
+
+    <p class="eyebrow">
+      ESPACE PRIVÉ
+    </p>
+
+    <h2>
+      Administration<br>
+      <em>ZantrayPhotographie</em>
+    </h2>
+
+
+    <div id="loginBox" class="admin-box">
+
+      <h3>Connexion</h3>
+
+      <p>
+        Cet espace est réservé au photographe.
+      </p>
+
+      <input
+        type="email"
+        id="adminEmail"
+        placeholder="Email administrateur"
+      >
+
+      <input
+        type="password"
+        id="adminPassword"
+        placeholder="Mot de passe"
+      >
+
+      <button
+        class="btn"
+        id="loginButton"
+      >
+        Se connecter
+      </button>
+
+      <p id="loginStatus"></p>
+
+    </div>
+
+
+    <div
+      id="adminPanel"
+      class="admin-panel"
+      style="display:none;"
+    >
+
+      <div class="admin-tabs">
+
+        <button
+          class="admin-tab active"
+          data-tab="profileAdmin"
+        >
+          Profil
+        </button>
+
+        <button
+          class="admin-tab"
+          data-tab="photoAdmin"
+        >
+          Photos
+        </button>
+
+        <button
+          class="admin-tab"
+          data-tab="socialAdmin"
+        >
+          Réseaux
+        </button>
+
+      </div>
+
+
+      <!-- MODIFICATION PROFIL -->
+
+      <div
+        class="admin-tab-content active"
+        id="profileAdmin"
+      >
+
+        <h3>Modifier le profil</h3>
+
+        <label>
+          Nom
+          <input
+            id="editName"
+            value="Marecelin Jhonn Markenley"
+          >
+        </label>
+
+        <label>
+          Biographie
+          <textarea id="editBio" rows="6">Je suis Marecelin Jhonn Markenley, photographe derrière ZantrayPhotographie.</textarea>
+        </label>
+
+        <label>
+          Photo de profil
+          <input
+            type="file"
+            id="profileUpload"
+            accept="image/*"
+          >
+        </label>
+
+        <button
+          class="btn"
+          id="saveProfile"
+        >
+          Enregistrer le profil
+        </button>
+
+      </div>
+
+
+      <!-- AJOUT PHOTOS -->
+
+      <div
+        class="admin-tab-content"
+        id="photoAdmin"
+      >
+
+        <h3>Ajouter une photo</h3>
+
+        <label>
+          Photo
+          <input
+            type="file"
+            id="photoUpload"
+            accept="image/*"
+          >
+        </label>
+
+        <label>
+          Catégorie
+
+          <select id="photoCategory">
+
+            <option value="portrait">
+              Portrait
+            </option>
+
+            <option value="mariage">
+              Mariage
+            </option>
+
+            <option value="evenement">
+              Événement
+            </option>
+
+            <option value="nature">
+              Nature
+            </option>
+
+          </select>
+
+        </label>
+
+        <label>
+          Titre
+          <input
+            id="photoTitle"
+            placeholder="Titre de la photo"
+          >
+        </label>
+
+        <button
+          class="btn"
+          id="addPhoto"
+        >
+          Ajouter à la galerie
+        </button>
+
+        <div id="adminGallery"></div>
+
+      </div>
+
+
+      <!-- RESEAUX -->
+
+      <div
+        class="admin-tab-content"
+        id="socialAdmin"
+      >
+
+        <h3>Modifier les réseaux sociaux</h3>
+
+        <label>
+          Facebook
+          <input
+            id="facebookUrl"
+            placeholder="https://facebook.com/..."
+          >
+        </label>
+
+        <label>
+          Instagram
+          <input
+            id="instagramUrl"
+            placeholder="https://instagram.com/..."
+          >
+        </label>
+
+        <label>
+          TikTok
+          <input
+            id="tiktokUrl"
+            placeholder="https://tiktok.com/@..."
+          >
+        </label>
+
+        <label>
+          X
+          <input
+            id="xUrl"
+            placeholder="https://x.com/..."
+          >
+        </label>
+
+        <button
+          class="btn"
+          id="saveSocials"
+        >
+          Enregistrer les réseaux
+        </button>
+
+      </div>
+
+
+      <button
+        id="logoutButton"
+        class="logout"
+      >
+        Se déconnecter
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="container footer-top">
+
+    <div class="logo">
+      Zantray<span>Photographie</span>
+    </div>
+
+    <div class="footer-socials">
+
+      <a href="mailto:marcelinjohnmakenley@gmail.com">
+        Email
+      </a>
+
+      <a href="https://wa.me/50948553331" target="_blank">
+        WhatsApp
+      </a>
+
+      <a href="#contact">
+        Réseaux sociaux
+      </a>
+
+    </div>
+
+  </div>
+
+
+  <div class="container footer-bottom">
+
+    <span>
+      © 2026 ZantrayPhotographie
+    </span>
+
+    <span>
+      Marecelin Jhonn Markenley · Haïti
+    </span>
+
+  </div>
+
+</footer>
+
+
+<!-- ================= LIGHTBOX ================= -->
+
+<div
+  id="lightbox"
+  class="lightbox"
+>
+
+  <button id="lightboxClose">
+    ×
+  </button>
+
+  <button id="lightboxPrev">
+    ←
+  </button>
+
+  <img id="lightboxImage" src="" alt="">
+
+  <button id="lightboxNext">
+    →
+  </button>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
